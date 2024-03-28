@@ -39,7 +39,7 @@ MINIMUM_SUPPORTED_AZURE_OPENAI_PREVIEW_API_VERSION = "2024-02-15-preview"
 UI_TITLE = os.environ.get("UI_TITLE") or "CHAT-KQT"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting"
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Inicie la Conversación"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
     or "This chatbot is configured to answer your questions"
